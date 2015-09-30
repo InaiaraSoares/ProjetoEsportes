@@ -1,0 +1,82 @@
+body{
+	font-family: arial;
+	font-size: 12 px;
+	background: #FFFFFF;
+	color: black;
+	
+}
+
+#f{
+	background:#D3D3D3;
+}
+#s{
+	background:#CAE1FF;
+}
+body{
+	margin-top: 10 px;
+	margin-left: 5 px;
+	margin-right: 40 px;
+	margin-bottom:10 px;
+}
+
+h1{
+	text-align: right;
+	
+	}
+	
+h1,h2,h5{
+	text-transform:uppercase;
+}
+h2{
+	font-size:30 px;
+}
+
+p{
+	text-align:justify;
+}
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  
+}
+
+#cssmenu {
+  width: auto;
+  height: 59px;
+  padding-bottom: 4px;
+}
+
+#cssmenu.align-right {
+  float: right;
+}
+#cssmenu.align-right ul li {
+  float: right;
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+#cssmenu ul {
+  height: 59px;
+}
+#cssmenu ul li {
+  float: left;
+  margin-right: 4px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  z-index: 5;
+}
+#cssmenu ul li a {
+  padding: 24px 30px 20px 30px;
+  margin-bottom: 4px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: black;
+  font-weight:bold;
